@@ -1,5 +1,49 @@
+// project color
 $main-color: #403432;
+$grey-color: #ECEAEA;
+$light-grey-color: #A0A0A0;
+$medium-grey-color: #9F9F9F;
+//for background page
+$body-color: #ffffff;
+$font-color: #343030;
+$footer-color: #555555;
+$border-color: #E1E1E1;
+//for button
+$btn-color: #F4F6F9;
 $hover-color: #776763;
 $disable-color: #C1B4B1;
 $active-color: #5B3A32;
-$body-color: #E5E5E5;
+
+//project font and header h*
+$font-family: Merriweather;
+$font-family-2: Avenir, Helvetica, Arial;
+h1 {
+  font-size: 1.5em; // 24px
+  font-weight: 700; // bold
+  line-height: 2.25em; // 36px
+}
+h2 {
+  font-size: 1.125em; // 18px
+  font-weight: 400; // regular
+  line-height: 1.688em; // 27px
+}
+h3 {
+  font-size: 1em; // 16px
+  font-weight: 700; // bold
+  line-height: 1.5em; // 24px
+}
+h4 {
+  font-size: 0.875em; // 14px
+  font-weight: 700; // bold
+  line-height: 1.313em; // 21px
+}
+h5 {
+  font-size: 0.875em; // 14px
+  font-weight: 400; // regular
+  line-height: 1.313em; // 21px
+}
+h6 {
+  font-size: 0.875em; // 14px
+  font-weight: 300; // light
+  line-height: 1.313em; // 21px
+}
