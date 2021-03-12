@@ -21,12 +21,17 @@ body {
 
   min-width: 1200px; // 1200px
   margin: auto;
+  &.container-main {
+    align-items: baseline;
+  }
 }
-
-.container-main {
-  align-items: baseline;
+.container__nav {
+  display: flex;
+  align-items: center;
 }
-
+.container__logo {
+  margin-right: 1.5em; // 24px
+}
 .header {
   display: flex;
   align-items: center;
@@ -34,7 +39,6 @@ body {
   height: 6em; // 96px
   border-bottom: 0.063em solid $border-color;
 }
-
 .main {
   width: 75em; // 1200px
   margin: auto;
