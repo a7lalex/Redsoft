@@ -1,0 +1,20 @@
+.search {
+  display: flex;
+}
+.search__input {
+  border: 0.063em solid $border-color; // 1px
+  box-sizing: border-box;
+
+  min-width: 18.375em; //294px
+  padding: 0.875em 1em; // 14px 16px
+
+  border-radius: 0;
+  outline: none;
+
+  &::placeholder {
+    color: $medium-grey-color;
+  }
+  &:hover, :focus {
+    border-color: $medium-grey-color2;
+  }
+}
